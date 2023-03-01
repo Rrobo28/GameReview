@@ -1,0 +1,22 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom"/>
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_signin"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/action_signin"
+        app:showAsAction="always" />
+
+
+    <!-- Settings, should always be in the overflow -->
+
+    <item android:id="@+id/action_signout"
+        android:title="@string/action_signout"
+        app:showAsAction="never" />
+
+</menu>
